@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "demo.main",
+        "aws_region": "eu-central-1",
+        "profile_name": "xpeppers-test",
+        "project_name": "zappa-demo",
+        "runtime": "python2.7",
+        "s3_bucket": "zappa-demo-2jps4g"
+    }
+}
