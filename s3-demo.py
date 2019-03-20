@@ -6,7 +6,7 @@ import random
 BUCKET_NAME="zappa-demo-2jps4g"
 KEY=''.join(random.choice(string.ascii_lowercase + string.digits) for _ in range(10))
 
-def random_data():
+def random_data(event=None, context=None):
     more_binary_data = b'Here we have some more data'
 
     # Method 2: Client.put_object()
